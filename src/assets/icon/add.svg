@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Coupon_btn_ADD_gray</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-27.3%" y="-27.3%" width="154.5%" height="154.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.120612545 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Coupon_btn_ADD_gray" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分组-28">
+            <g transform="translate(6.000000, 6.000000)">
+                <g id="Group-18" filter="url(#filter-1)">
+                    <circle id="Oval-8" stroke="#DDDDDD" cx="22" cy="22" r="21.5"></circle>
+                    <path d="M20,20 L20,13 C20,11.8954305 20.8954305,11 22,11 C23.1045695,11 24,11.8954305 24,13 L24,20 L31,20 C32.1045695,20 33,20.8954305 33,22 C33,23.1045695 32.1045695,24 31,24 L24,24 L24,31 C24,32.1045695 23.1045695,33 22,33 C20.8954305,33 20,32.1045695 20,31 L20,24 L13,24 C11.8954305,24 11,23.1045695 11,22 C11,20.8954305 11.8954305,20 13,20 L20,20 Z" id="Combined-Shape" fill="#111111"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

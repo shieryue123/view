@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>分组 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF9E94" offset="0%"></stop>
+            <stop stop-color="#FE4A26" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="22" cy="22" r="15"></circle>
+        <filter x="-6.7%" y="-3.3%" width="113.3%" height="113.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.250980392   0 0 0 0 0.211764706  0 0 0 0.202219203 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="购物车" transform="translate(-36.000000, -238.000000)">
+            <g id="分组-7" transform="translate(0.000000, 128.000000)">
+                <g id="分组-5">
+                    <g id="Group-10" transform="translate(0.000000, 32.000000)">
+                        <g id="分组-9" transform="translate(30.000000, 71.000000)">
+                            <g id="Oval-6">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                <use fill="#FE3113" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                            <path d="M19.5731551,26.1099197 L27.9709141,17.3640876 C27.9815851,17.3529743 27.9924807,17.3420787 28.003594,17.3314077 C28.4570911,16.8959592 29.1777238,16.9105905 29.6131722,17.3640876 L29.7144618,17.4695755 C30.1374607,17.910107 30.1374607,18.6059423 29.7144618,19.0464738 L20.5066708,28.6359124 C20.4959997,28.6470257 20.4851042,28.6579213 20.4739909,28.6685923 C20.1704769,28.9600268 19.7473053,29.0498579 19.3700544,28.9414473 C19.102932,28.9300207 18.8387111,28.82498 18.6306953,28.625243 C18.6195819,28.614572 18.6086864,28.6036764 18.5980154,28.5925631 L14.2855382,24.1013409 C13.8625393,23.6608094 13.8625393,22.9649741 14.2855382,22.5244426 L14.3868278,22.4189547 C14.8222762,21.9654577 15.5429089,21.9508264 15.996406,22.3862748 C16.0075193,22.3969458 16.0184149,22.4078414 16.0290859,22.4189547 L19.5731551,26.1099197 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

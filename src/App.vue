@@ -1,32 +1,46 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <keep-alive include="EditAddress">
+      <router-view/>
+    </keep-alive>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+import { mapState } from 'vuex'
+export default {
+  name: 'App',
+  computed: {
+    ...mapState('user', ['token', 'position'])
+  },
+  created () {
+    this.initData()
+  },
+  methods: {
+    initData () {
+      // if (!this.position) {
+      //   this.$router.push({
+      //     path: '/geolocation',
+      //     query: {
+      //       callbcakUrl: this.$router.history.current.fullPath
+      //     }
+      //   })
+      // }
+      if (this.token) {
+        this.$store.dispatch('user/getUserInfo')
+      }
     }
   }
+}
+</script>
+
+<style lang="scss">
+html {
+  font-size: 100px;
+}
+.page {
+  width: 100vw;
+  min-height: 100vh;
+  background: #F8F8F8;
 }
 </style>
